@@ -138,7 +138,7 @@ public class LonelyTwitterActivity extends Activity {
 	}
 
 	/**
-	 * Reemoves the extra spaces in the given string
+	 * Removes the extra spaces in the given string
 	 * @param inputString input string
 	 * @return string without extra spaces
      */
