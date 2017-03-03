@@ -1,11 +1,12 @@
 package ca.ualberta.cs.lonelytwitter;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by shida3 on 1/19/17.
  */
-public abstract class Tweet implements Tweetable{
+public abstract class Tweet implements Serializable, Tweetable{
     private Date date;
     private String message;
 
